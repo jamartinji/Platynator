@@ -1,10 +1,10 @@
-## Interface: 120000, 110207, 50503, 38000, 20505, 11508
-## Title: Platynator
+## Interface: 120001, 120000, 110207, 50503, 38000, 20505, 11508
+## Title: PlatyRoth
 ## Version: @project-version@
 ## Author: plusmouse
 ## SavedVariables: PLATYNATOR_CONFIG
 ## SavedVariablesPerCharacter: PLATYNATOR_CURRENT_PROFILE, PLATYNATOR_LAST_INSTANCE
-## IconTexture: Interface\AddOns\Platynator\Assets\logo.tga
+## IconTexture: Interface\AddOns\PlatyRoth\Assets\logo.tga
 
 ## Category: Unit Frames
 ## Category-deDE: Einheitenfenster

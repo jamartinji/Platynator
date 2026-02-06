@@ -48,6 +48,8 @@ addonTable.Assets.BarBackgrounds = {
 
   ["wide/blizzard-absorb"] = {file = "Interface/AddOns/Platynator/Assets/%s/BarBackgrounds/blizzard-absorb.png", width = 1000, height = 125, has4k = true, group = 5, order = 1},
   ["narrow/blizzard-absorb"] = {file = "Interface/AddOns/Platynator/Assets/%s/BarBackgrounds/blizzard-absorb-narrow.png", width = 1000, height = 63, has4k = true, group = 5, order = 2},
+  ["wide/roth"] = {file = "Interface/AddOns/Platynator/Assets/Roth/roth.png", width = 1000, height = 125, group = 9, order = 1},
+  ["wide/roth-frame"] = {file = "Interface/AddOns/Platynator/Assets/Roth/roth-frame.png", width = 1000, height = 125, group = 9, order = 2},
 }
 
 addonTable.Assets.BarBordersSliced = {
@@ -343,6 +345,8 @@ addonTable.Assets.Markers = {
   ["special/blizzard-elite-around"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-rareelitecombo.png", width = 183, height = 155, has4k = true, mode = legacyMode.Special, tag = "elite"},
   ["normal/blizzard-elite-around"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-elite.png", width = 183, height = 150, has4k = true},
   ["normal/blizzard-rareelite-around"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-rareelite.png", width = 183, height = 150, has4k = true},
+  ["normal/blizzard-elite-around-l"] = {file = "Interface/AddOns/Platynator/Assets/Roth/blizzard-elite-l.png", width = 183, height = 150, has4k = true},
+  ["normal/blizzard-rareelite-around-l"] = {file = "Interface/AddOns/Platynator/Assets/Roth/blizzard-rareelite-l.png", width = 183, height = 150, has4k = true},
 
   ["special/blizzard-elite-midnight"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-midnight-eliterarecombo.png", width = 150, height = 150, has4k = true, mode = legacyMode.Special, tag = "elite"},
   ["normal/blizzard-elite-midnight"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-midnight-elite.png", width = 150, height = 150, has4k = true},
@@ -375,7 +379,12 @@ addonTable.Assets.SpecialEliteMarkers = {
   ["special/blizzard-elite-midnight"] = {
     elite = "normal/blizzard-elite-midnight",
     rareElite = "normal/blizzard-rareelite-midnight",
+    },
+  ["special/blizzard-elite-around-l"] = {
+    elite = "blizzard-elite-around-l",
+    rareElite = "normal/blizzard-rareelite-around-l",
   },
+
 }
 
 function addonTable.Assets.ApplyScale()
