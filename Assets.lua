@@ -348,8 +348,8 @@ addonTable.Assets.Markers = {
   ["special/blizzard-elite-around"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-rareelitecombo.png", width = 183, height = 155, has4k = true, mode = legacyMode.Special, tag = "elite"},
   ["normal/blizzard-elite-around"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-elite.png", width = 183, height = 150, has4k = true},
   ["normal/blizzard-rareelite-around"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-rareelite.png", width = 183, height = 150, has4k = true},
-  ["normal/blizzard-elite-around-l"] = {file = "Interface/AddOns/Platynator/Assets/Roth/blizzard-elite-l.png", width = 183, height = 150, has4k = true},
-  ["normal/blizzard-rareelite-around-l"] = {file = "Interface/AddOns/Platynator/Assets/Roth/blizzard-rareelite-l.png", width = 183, height = 150, has4k = true},
+  ["normal/blizzard-elite-dragon"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-elite-l.png", width = 183, height = 150},
+  ["normal/blizzard-rareelite-dragon"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-rareelite-l.png", width = 183, height = 150},
 
   ["special/blizzard-elite-midnight"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-midnight-eliterarecombo.png", width = 150, height = 150, has4k = true, mode = legacyMode.Special, tag = "elite"},
   ["normal/blizzard-elite-midnight"] = {file = "Interface/AddOns/Platynator/Assets/%s/Markers/blizzard-midnight-elite.png", width = 150, height = 150, has4k = true},
@@ -383,9 +383,9 @@ addonTable.Assets.SpecialEliteMarkers = {
     elite = "normal/blizzard-elite-midnight",
     rareElite = "normal/blizzard-rareelite-midnight",
     },
-  ["special/blizzard-elite-around-l"] = {
-    elite = "blizzard-elite-around-l",
-    rareElite = "normal/blizzard-rareelite-around-l",
+  ["special/blizzard-elite-dragon"] = {
+    elite = "normal/blizzard-elite-dragon",
+    rareElite = "normal/blizzard-rareelite-dragon",
   },
 
 }
